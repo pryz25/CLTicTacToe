@@ -2,7 +2,7 @@
 
 const program = require('commander');
 
-let board = {
+const board = {
   upLeft: null,
   upMid: null,
   upRight: null,
@@ -11,7 +11,7 @@ let board = {
   midRight: null,
   botLeft: null,
   botMid: null,
-  botRight: null
+  botRight: null,
 };
 
 let player = 'X';
@@ -37,4 +37,5 @@ let makeMove = (move) => {
       player = 'X';
     }
   }
+  console.log(board, `Player: ${player}`);
 };
