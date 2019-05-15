@@ -18,5 +18,9 @@
   "homepage": "https://github.com/pryz25/CLTicTacToe#readme",
   "dependencies": {
     "commander": "^2.20.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
   }
 }
