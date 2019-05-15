@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pryz25/CLTicTacToe/issues"
   },
-  "homepage": "https://github.com/pryz25/CLTicTacToe#readme"
+  "homepage": "https://github.com/pryz25/CLTicTacToe#readme",
+  "dependencies": {
+    "commander": "^2.20.0"
+  }
 }
